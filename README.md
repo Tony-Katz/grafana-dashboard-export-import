@@ -15,3 +15,5 @@ This script exports dashboards and their associated folders from a source Grafan
 2. Run the script:
    ```bash
    bash db-export.sh
+   ```bash
+   bash db-import.sh
