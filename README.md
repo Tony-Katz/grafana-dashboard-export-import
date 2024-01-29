@@ -4,15 +4,15 @@ These scripts facilitate the export and import of dashboards from one Grafana in
 
 ## Usage
 
-### Export Script (`db-export.sh`)
+### Export/Import Script (`db-export.sh`)
 
-This script exports dashboards and their associated folders from a source Grafana instance.
+These scripts export/import dashboards and their associated folders from a source Grafana instance.
 
-1. Set up the following variables in the script:
+1. Set up the following variables in the scripts:
    - `HOST`: URL of the source Grafana instance.
    - `KEY`: API key for authentication.
 
-2. Run the script:
+2. Run the scripts:
    ```bash
    bash db-export.sh
    bash db-import.sh
